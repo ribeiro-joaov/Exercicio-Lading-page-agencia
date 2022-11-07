@@ -1,6 +1,5 @@
 .header nav ul {
   display: flex;
-  
 }
 .header nav ul li a {
   font-size: 2rem;
@@ -8,24 +7,20 @@
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.3s;
-  
 }
 .header nav ul li a:hover {
   color: #fff;
   background-color: coral;
-  
 }
-.header .menu{
+.header .menu {
   display: none;
   width: 60px;
   height: 60px;
   align-self: flex-end;
-  
 }
 .header nav label {
   display: flex;
   flex-direction: column;
-  
 }
 .header .hamburger {
   background-color: #000;
@@ -36,7 +31,6 @@
   top: 29px;
   left: 15px;
   transition: 0.5s ease-in-out;
-  
 }
 .header .hamburger:before,
 .header .hamburger:after {
@@ -87,7 +81,6 @@
   z-index: 1;
 }
 header nav ul {
-  width: 20px;
   background-color: #fff;
   padding: 2px;
 }
